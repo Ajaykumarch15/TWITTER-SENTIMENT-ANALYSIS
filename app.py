@@ -51,6 +51,7 @@ st.write("Enter a tweet below and find out whether it's positive or negative!")
 
 # User input
 tweet = st.text_area("Enter Tweet:")
+st.snow()
 
 if st.button("Analyze"):
     if tweet:
