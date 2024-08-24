@@ -46,7 +46,7 @@ def predict_sentiment(text):
     return "Negitive" if prediction[0] == 0 else "Postive"
 
 # Streamlit app interface
-st.title("Twitter Sentiment ")
+st.title("Twitter Sentiment .......")
 st.write("Enter a tweet below and find out whether it's positive or negative!")
 
 # User input
